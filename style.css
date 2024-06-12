@@ -294,6 +294,9 @@ header .navbar-2{
 .navright-2 .right-uls .try{
     margin: 0 6px;
 }
+.middle{
+    background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_desktop-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3200&hei=1960&qlt=100&fmt=png-alpha&fit=constrain");
+}
 }
 
 .azu{
@@ -418,7 +421,7 @@ header .navbar-2{
     background-color:#a1d035 ;
 }
 .scnd-hdr .vid{
-    position: absolute;
+    /* position: absolute; */
     /* top:0; */
     left: 0;
     right: 0;
@@ -434,7 +437,7 @@ header .navbar-2{
     background-size: cover;
 }
 .content{
-    position: relative;
+    /* position: relative; */
     /* top: 100px; */
     display:block;
     /* background-color: aqua; */
@@ -535,14 +538,103 @@ header .navbar-2{
     background-color: #a1d035;
     cursor: pointer;
 }
-.content{
-    
+/* .content .first .two{
+    color:#0e1726;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    letter-spacing: -0.05em;
+}
+.content .first .two h1{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.05em;
+} */
+.liner{
+    display: flex;
+    /* background-color: #807f7f; */
+    margin-top: 0px;
+    flex-direction: column;
+    position: sticky;
+    /* padding: 1rem; */
+    justify-content: flex-end;
+    pointer-events: none;
+    --vw:844px;
+    z-index:500;
+    height: 56px;
+    cursor: pointer;
+}
+.liner .sol{
+    display: flex;
+    --secondary-nav-dropdown-menu-list-display:flex;
+    align-items: center;
+    background-color: #fefefe;
+    height: 56px;
+    /* box-shadow: 0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.063rem 0.125rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14)); */
+}
+.liner .sol .uls{
+    flex-grow: 1;
+    box-shadow: none;
+    overflow: initial;
+    /* display: flex; */
+}
+.sol .uls ul{
+    display: flex;
+    text-align: left;
+    left:0;
+    right: auto;
+}
+.liner .sol .uls ul{
+    list-style: none;
+    box-shadow: none;
+    overflow: hidden;
+    display: flex;
+    column-gap: 3rem;
+}
+.liner .uls a{
+    text-decoration: none;
+    width: fit-content;
+    font-size: 0.85rem;
+    padding-bottom: 1rem;
+    color: #004275;
+    font-weight: 600;
+}
+.liner .freee{
+    box-sizing: border-box;
+    color: #000000; 
+    justify-content: center;
+    /* padding-bottom: 0.75rem; */
+}
+.freee a{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.375rem;
+    color: #000000;
+    background-color: #89c402;
+    border-radius: 0.5rem;
+    border: 2px solid #89c402;
+}
+.sol .uls li{
+    display: flex;
+    box-sizing: border-box;
+    /* background-color: antiquewhite; */
+    /* padding: 0.25rem; */
 }
 
 @media screen and (max-width:539px){
 
+/* .scnd-hdr{
+    padding-bottom: 6rem;
+} */
 .scnd-hdr .vid{
-    position: absolute;
+    /* position: absolute; */
     /* top:0; */
     left: 0;
     right: 0;
@@ -558,6 +650,8 @@ header .navbar-2{
     background-size: cover;
 }
 .content{
+    position: absolute;
+    top: 100px;
     height: 100%;
     /* width: 100%; */
     padding-right: 1rem;
@@ -609,18 +703,48 @@ header .navbar-2{
     font-size:0.90rem;
     font-weight: 600;
 }
+.cont-botm span{
+    flex-grow: 1;
+}
+.grid-walas .cont{
+    padding: 2rem;
+}
+.discover .disc{
+    padding-left: 1rem;
+    padding-right:1rem;
+    /* width: 100%; */
+    margin-left: auto;
+    margin-right:auto;
+}
+.discover .feet{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.middle{
+    background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_mobile-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=995&qlt=100&fmt=png-alpha&fit=constrain");
+}
+.middle .in-mid{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.in-mid .sols{
+    margin-right: -0.25rem;
+    margin-left: -0.25rem;
+}
 }
 
 @media screen and (min-width:540px){
 
 .content{
+    position: absolute;
+    top: 100px;
     padding-right: 4rem;
     padding-left: 4rem;
     /* padding-top: 6rem; */
     /* padding-bottom: 6rem; */
 }
 .scnd-hdr .vid{
-    position: absolute;
+    /* position: absolute; */
     /* top:0; */
     left: 0;
     right: 0;
@@ -636,12 +760,27 @@ header .navbar-2{
     object-fit: cover;
     background-size: cover;
 }
+.discover{
+    /* padding-top:3.5rem ; */
+}
+.discover .feet{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    background-color: #f4fafd;
+}
+.discover .feet .disc{
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+.grid-walas .cont{
+    padding: 1rem;
+}
 }
 
 @media screen and (min-width:732px){
-
+    
 .scnd-hdr .vid{
-    position: absolute;
+    /* position: absolute; */
     /* top:0; */
     left: 0;
     right: 0;
@@ -657,37 +796,83 @@ header .navbar-2{
     object-fit: cover;
     background-size: cover;
 }
+.content{
+    position: absolute;
+    top: 100px;
+}
+.middle{
+    background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_mobile-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1990&qlt=100&fmt=png-alpha&fit=constrain");
+}
 }
 
 @media screen and (max-width:859.98px){
 
-/* .scnd-hdr .vid{
-    height: 50vh;
-    width: 100%;
-    background-size: cover;
-    object-fit: cover;
-}
-.scnd-hdr .vid video{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-} */
 .content .inbox{
     margin-top: 2rem;
+}
+
+.liner .sol{
+    --secondary-nav-dropdown-display:block;
+    --secondary-nav-dropdown-position:absolute;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+}
+.liner .sol .uls{
+    margin: 0.25rem;
+    cursor: pointer;
+}
+.liner .uls .sos{
+    display: none;
+}
+.liner .blue{
+    padding: 0.75rem;
+    display: flex;
+    height: 100%;
+    justify-content:space-between ;
+    flex-direction: row;
+    flex-grow: 1;
+    /* width: 90%; */
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 4px solid #0067b8;
+    cursor: pointer;
+    /* background-color: #a1d035; */
+}
+.liner .blue a{
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    color: #004275;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    /* border-bottom: 2px solid ; */
+    /* flex-grow:1; */
+}
+.liner .blue span{
+    cursor: pointer;
+}
+.liner .blue i{
+    font-size:0.85rem;
+    color: #0078d4;
+    cursor: pointer;
+    /* font-weight: 400; */
 }
 }
 
 @media screen and (min-width:860px){
     
 .scnd-hdr .vid{
-    position: absolute;
+    /* position: absolute; */
     /* top:0; */
     left: 0;
     right: 0;
     /* bottom: 0; */
     transform: unset;
     overflow: hidden;
-    height: 67.5vh;
+    height: 68.5vh;
     width: 100%;
     /* background-size: cover; */
     object-fit: cover;
@@ -710,23 +895,100 @@ header .navbar-2{
     /* margin-left: auto; */
     align-items: center;
     justify-content: initial;
+    position: absolute;
     /* max-width: 100vw; */
 }
 .content .row{
     display: flex;
     height: 100%;
+    justify-content: flex-start;
+    align-items:flex-start ;
+    padding-top:0;
+    padding-bottom:0;
+}
+.content .inbox{
+    /* display: flex; */
+    --layout-columns-count: 2;
+    --sm-layout-order:row;
 }
 .content .three{
     /* background-color: #88c099; */
     width: 120%;
     letter-spacing: 0.05em;
 }
+.liner{
+    margin-top: 0;
+    height: 108px;
+    background-color: #fefefe;
+    box-shadow:0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.063rem 0.125rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14)) ;
+}
+.liner .sol{
+    height: 108px;
+    /* background-color: #006dc1; */
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+}
+.liner .uls{
+    overflow:hidden;
+}
+.liner .uls ul{
+    width: fit-content;
+    transform: unset;
+    flex-wrap: wrap;
+    padding:0;
+    position: relative;
+    padding-bottom: 0.25rem;
+    border-radius: 0;
+    margin-top: 0;
+    /* background-color: aqua; */
+    /* height: 150px; */
+    /* margin: 0; */
+}
+.liner .uls ul li{
+    margin-top: 1rem;
+}
+.liner .uls ul li:first-child{
+    padding-left: 0.25rem;
+}
+.liner .uls .sos{
+    display: block;
+}
+.sol .uls .blue{
+    border-bottom: 4px solid #0067b8;
+}
+.blue span{
+    display: none;
+}
+.discover .feet{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.discover .feet .disc{
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+    max-width: 100vw;
+}
+.discover .grids .gri{
+    margin-right: -0.5rem;
+    margin-left: -0.5rem;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+}
+.grid-walas .cont{
+    padding:1.5rem;
+}
+.cont .cont-up .exp{
+    padding-inline-end: 1.5rem;
+}
+.middle{
+    background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_desktop-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=980&qlt=100&fmt=png-alpha&fit=constrain");
+}
 }
 
 @media screen and (min-width:1440px){
-   
+     
 .scnd-hdr .vid{
-    position: absolute;
+    /* position: absolute; */
     /* top:0; */
     left: 0;
     right: 0;
@@ -743,12 +1005,12 @@ header .navbar-2{
     background-size: cover;
 } 
 .content {
-    position: relative;
-    /* top: 140px; */
+    position: absolute;
+    top: 100px;
     padding-right: 5%;
-    padding-left: 5%;
+    padding-left: 13%;
     max-width: 1328px;
-    width: 90%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     /* height: 30vh; */
@@ -758,4 +1020,312 @@ header .navbar-2{
     padding-right: 0.5rem;
     padding-left: 0.5rem;
 }
+.content .one{
+    text-transform: uppercase;
+    margin:0 0 1rem;
+}
+.content .first .two{
+    color:#0e1726;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    letter-spacing: -0.05em;
+}
+.two h1{
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: -0.05em;
+}
+.inbox .three{
+    /* background-color: #959b87; */
+    width: 45%;
+    padding:0;
+    color: #17253d;
+    margin: 1rem 0 0;
+}
+.inbox .three p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: -0.03em;
+}
+.liner{
+    /* max-width: 1328px; */
+    align-items: center;
+    height: 56px;
+    z-index: 500;
+    margin-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* margin-left: 200px; */
+    background-color: #fefefe;
+    box-shadow:0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.063rem 0.125rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14)) ;
+}
+.liner .sol{
+    /* max-width: 1328px;  */
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    box-sizing: content-box;
+    /* background-color: #fefefe; */
+    /* box-shadow:0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.063rem 0.125rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14)) ; */
+}
+.grid .gri{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+}
+.discover .feet .disc{
+    max-width: 1328px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.middle{
+    background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_desktop-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3200&hei=1960&qlt=100&fmt=png-alpha&fit=constrain");
+}
+}
+
+.discover{
+    box-sizing: border-box;
+    display: block;
+}
+.discover .feet{
+    /* padding-top: 3.5rem; */
+    /* padding-bottom: 3.5rem; */
+    background-color: #f4fafd;
+}
+.discover .disc{
+    /* padding-left: 1rem;
+    padding-right:1rem; */
+    /* width: 100%; */
+    margin-left: auto;
+    margin-right:auto;
+}
+.disc .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.25rem;
+    margin-left: -0.25rem;
+}
+.row .col{
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.col .news{
+    margin: 0 0 0.5rem;
+    text-transform: uppercase;
+}
+.news span{
+    color: #17253d;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1rem;
+    letter-spacing: 0.08em;
+}
+.col .dis{
+    margin: 0;
+    color: #0e1726;
+}
+.dis h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+    letter-spacing: -0.05em;
+}
+.grids{
+    margin-top: 2rem;
+    margin-inline-end: 0;
+}
+.grids .grid{
+    display: grid;
+    /* flex-direction: column; */
+    gap: 2rem;
+    align-items: normal;
+}
+.grid .gri{
+    --gri-column-gap:0.75rem 1rem;
+    --gri-column-count:1;
+    --gri-row-gap:0.5rem;
+    --gri-column-gap-offset: calc(var(--layout-column-gap) * (var(--layout-column-count) - 1));
+    --gri-available-width:calc(100% - var(--layout-column-gap-offset)) ;
+    --gri-column-width:calc(var(--layout-available-width) / var(--layout-column-count));
+    column-gap: 0.75rem;
+    display: grid;
+    flex-wrap: wrap;
+    row-gap: var(0.5rem,0.75rem);
+    grid-template-columns: repeat(1fr);
+    grid-gap: 1rem;
+}
+.gir-gir{
+    display: block;
+    /* flex: 0 0 calc(var(--layout-available-width) / var(--layout-column-count)); */
+}
+.grid-walas{
+    height: 100%;
+    background-color: #fefefe;
+    box-shadow:0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.125rem 0.25rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14));
+    border:0.0625rem solid #e6f2fb;
+    display: flex;
+    flex-direction: column;
+    min-width:1px;
+    border-radius: 0.5rem;
+}
+.grid-walas .cube{
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    display: flex;
+    width: inherit;
+    max-width: inherit;
+    height: auto;
+    border-radius: 0.5rem;
+    aspect-ratio: initial;
+}
+.cube img{
+    max-width: 100%;
+    height: auto;
+    width: inherit;
+    object-fit: inherit;
+    border-radius: 0.5rem;
+    aspect-ratio: initial;
+}
+.grid-walas .cont{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-width: 1px;
+    word-wrap: break-word;
+    background-clip: border-box;
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    /* padding: 2rem; */
+}
+.cont .cont-up{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: flex-start;
+    text-align: left;
+}
+.cont-up .power{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    gap: 0.25rem;
+}
+.power h3{
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: -.03em;
+    margin-bottom: 0;
+    display: block;
+}
+.cont-up .exp{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0;
+    padding-inline-end: 0;
+    text-align: left;
+    align-items: flex-start;
+}
+.exp span{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: -.03em;
+    margin-bottom: 0;
+    display: block;
+    color: #17253d;
+    text-align: start;
+}
+.cont-botm{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    grid-area: initial;
+}
+.cont-botm a{
+    color: #004275;
+    display: inline-flex;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    left: 1.25rem;
+    text-decoration: none;
+    align-items: center;
+    text-decoration-line: none;
+}
+.cont-botm span{
+    background-color: #0078d4;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    line-height: 1.375rem;
+    letter-spacing: -0.02em;
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+}
+.cont-botm  p{
+    padding-bottom: 0.125rem;
+    text-decoration: none;
+    color: #004275;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    letter-spacing: normal;
+}
+.middle{
+    /* background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_desktop-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=980&qlt=100&fmt=png-alpha&fit=constrain"); */
+    background-size: cover;
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position:center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.middle .in-mid{
+    /* width: 100%; */
+    margin-right: auto;
+    margin-left: auto;
+}
+.in-mid .sols{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sols .sol-1{
+    text-transform: uppercase;
+    margin: 0 0 0.5rem;
+}
+.sol-1 p{
+    color: #17253d;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1rem;
+    letter-spacing: 0.08em;
+    text-align: initial;
+}
+.colm-2 img{
+    width: 100%;
 }
