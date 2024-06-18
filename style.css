@@ -832,6 +832,12 @@ header .navbar-2{
     color: #17253d;
     padding: 0;
 }
+.sub-ai{
+    gap: 1.5rem;
+}
+.expl a span{
+    margin-bottom: 1.5rem;
+}
 .AI button{
     display: flex;
     justify-content: space-between;
@@ -953,10 +959,267 @@ header .navbar-2{
 .gartner .leader{
     padding-right: 1rem;
     padding-left: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    /* margin-top: 1.5rem; */
+}
+.gartner .lead{
+    margin-top: 1.5rem ;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+    margin-right: -0.25rem;
+    margin-left: -0.25rem;
 }
 .read a{
     flex-grow: 1;
 }
+.trans{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.tra .way h2{
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.05em;
+    margin-bottom: 0;
+}
+.optimize {
+    background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/resources-background_mobile@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=383&qlt=85&fmt=png-alpha&fit=constrain");
+    /* height: 400px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.optimize .infra{
+    padding-right: 1rem;
+    padding-left:1rem;
+}
+.its .it{
+    /* width: 132px; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-right: 1rem;
+    /* width:37%; */
+    /* padding-left: 1rem; */
+}
+/* .it a{
+    width: 37%;
+} */
+.ser h3{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.ser span{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.trans .tra{
+    margin-bottom: 1rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+.its{
+    /* position: relative; */
+    z-index: 1;
+    padding-left:0.5rem ;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    display: block;
+    /* padding:0 2rem; */
+}
+.its .it{
+    overflow-x: scroll;
+    overflow-y:hidden ;
+    scrollbar-width: none;
+    display: flex;
+    flex-wrap: nowrap;
+    /* width: 1332px; */
+    box-shadow: 0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.063rem 0.125rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14));
+    background-color: #fefefe;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-color: #bdc5d2;
+    border-width: 1px;
+    border-top: none;
+    border-bottom: none;
+    outline-offset: 0;
+    /* width: 100%; */
+    /* margin-left: auto; */
+}
+.it a{
+    box-shadow: 0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.063rem 0.125rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14));
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    /* width: 37%; */
+    /* width: 52px; */
+    color: #000000;
+    font-weight: 600;
+    /* padding: 0.5rem; */
+    font-size: 1rem;
+    flex: 0 0 auto;
+    /* overflow: scroll; */
+    align-items: center;
+    text-align: center;
+    /* justify-content: flex-start; */
+    padding: 12px 16px 16px;
+    /* border-top-color: #bdc5d2; */
+    border-color: #bdc5d2;
+    border-width: 1px;
+}
+.it a span{
+    width: 100%;
+    /* height: 20px; */
+    /* padding: 1rem 1.5rem 1.5rem 1.5rem; */
+    /* max-width: 40px; */
+    overflow: hidden;
+    /* background-color: #6f9e02; */
+    font-size: 1rem;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    line-height: 1.5em;
+    letter-spacing: -0.03em;
+    font-family: 'seg-semi';
+    padding-right: 5rem;
+}
+.it .prof{
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid #0067b8;
+    border-right: 1px solid #f5e6e6;
+    box-shadow: 0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.063rem 0.125rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14));
+    background-color: #fefeff;
+}
+.it .prof span{
+    /* box-shadow: 0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.063rem 0.125rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14));
+    background-color: #fefefe; */
+    width: 100%;
+    height: 100%;
+    /* padding: 12px 16px 16px; */
+}
+.it .deve{
+    box-shadow: 0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.063rem 0.125rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14));
+    background-color: #fefeff;
+}
+.comp .per{
+    /* width: 100%; */
+    border-radius: 0.5rem;
+    aspect-ratio: 1.77778;
+    display: inherit;
+    max-width: 100%;
+    height:auto;
+    background:rgba(255,255,255,0.1);
+    backdrop-filter: blur(1.25rem);
+    /* margin-top: 1.5rem; */
+    padding: 1rem;
+}
+.per img{
+    width: inherit;
+    max-width: inherit;
+    height: inherit;
+    object-fit: inherit;
+    aspect-ratio: 1.77778;
+    border-radius: 0.5rem;
+}
+.comp{
+    /* width: 100%; */
+    margin-top: 1.5rem;
+    /* padding: 1rem; */
+}
+.earth{
+    background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Desktop-AzureRegions-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3200&hei=983&qlt=95&fmt=png-alpha&fit=constrain");
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+    background-position: center;
+}
+.earth .in-earth{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+ .earth .ag{
+    padding-right: 1rem;
+    /* padding-left: 1rem; */
+ }
+ .ag .gi{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.25rem;
+    margin-left: -0.25rem;
+ }
+ .ag .in{
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+ }
+ .gi .in{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+ .global img{
+    display: none;
+ }
+ .ag .agz{
+    color: #f4fafd;
+    margin: 0;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+ }
+ .agz h2{
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 2.25rem;
+    letter-spacing: -0.05em;
+ }
+ .in .bey{
+    color: #f4fafd;
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+ }
+ .bey p{
+    display: contents;
+ }
+ .explr{
+    margin: 1.5rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+ }
+ .explr a{
+    --button-justify-content:center;
+    border: 2px solid transparent;
+    padding: 0.75rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    line-height: 1.375rem;
+    letter-spacing: -0.02em;
+    color: #0e1726;
+    background-color: #b3daf0;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    display: inline-block;
+ }
+ .explr a:hover{
+    background-color: #cbe6f4;
+ }
 }
 
 @media screen and (min-width:540px){
@@ -1167,9 +1430,6 @@ header .navbar-2{
  .g-1-top{
     gap: 0.75rem;
  }
- .grid-1{
-    gap: ;
- }
  .pic-cont .phi h3{
     font-size: 1.5rem;
     font-weight: 600;
@@ -1212,12 +1472,195 @@ header .navbar-2{
 .gartner .leader{
     padding-right: 4rem;
     padding-left: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.gartner .lead{
+    margin-top: 1.5rem ;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+    margin-right: -0.25rem;
+    margin-left: -0.25rem;
 }
 .gart-logo img{
     padding-top: 0.15rem ;
     padding-left: 0.25rem;
     margin-left: -0.25rem;
     /* width: 80%; */
+}
+.tra .way h2{
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.05em;
+    margin-bottom: 0;
+}
+.optimize {
+    background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/resources-background_mobile@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=383&qlt=85&fmt=png-alpha&fit=constrain");
+    /* height: 400px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.optimize .infra{
+    padding-right: 4rem;
+    padding-left:4rem;
+}
+.trans .tra{
+    margin-bottom: 1rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+.its{
+    /* position: relative; */
+    z-index: 1;
+    padding-left:0.5rem ;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    display: block;
+    /* padding:0 2rem; */
+}
+.its .it{
+    overflow-x: scroll;
+    overflow-y:hidden ;
+    scrollbar-width: none;
+    display: flex;
+    flex-wrap: nowrap;
+    /* width: 1332px; */
+    box-shadow: 0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.063rem 0.125rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14));
+    background-color: #fefefe;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-color: #bdc5d2;
+    border-width: 1px;
+    border-top: none;
+    border-bottom: none;
+    outline-offset: 0;
+    /* width: 100%; */
+    /* margin-left: auto; */
+}
+.it a{
+    box-shadow: 0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.063rem 0.125rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14));
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    /* width: 37%; */
+    /* width: 52px; */
+    color: #000000;
+    font-weight: 600;
+    /* padding: 0.5rem; */
+    font-size: 1rem;
+    flex: 0 0 auto;
+    /* overflow: scroll; */
+    align-items: center;
+    text-align: center;
+    /* justify-content: flex-start; */
+    padding: 12px 16px 16px;
+    /* border-top-color: #bdc5d2; */
+    border-color: #bdc5d2;
+    border-width: 1px;
+}
+.it a span{
+    width: 100%;
+    /* height: 20px; */
+    /* padding: 1rem 1.5rem 1.5rem 1.5rem; */
+    /* max-width: 40px; */
+    overflow: hidden;
+    /* background-color: #6f9e02; */
+    font-size: 1rem;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    line-height: 1.5em;
+    letter-spacing: -0.03em;
+    font-family: 'seg-semi';
+    padding-right: 5rem;
+}
+.it .prof{
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid #0067b8;
+    border-right: 1px solid #f5e6e6;
+    box-shadow: 0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.063rem 0.125rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14));
+    background-color: #fefeff;
+}
+.it .prof span{
+    /* box-shadow: 0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.063rem 0.125rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14));
+    background-color: #fefefe; */
+    width: 100%;
+    height: 100%;
+    /* padding: 12px 16px 16px; */
+}
+.it .deve{
+    box-shadow: 0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.063rem 0.125rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14));
+    background-color: #fefeff;
+}
+.its .it{
+    /* width: 132px; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-right: 1rem;
+    /* width:37%; */
+    /* padding-left: 1rem; */
+}
+/* .it a{
+    width: 50%;
+} */
+.comp .per{
+    /* width: 100%; */
+    border-radius: 0.5rem;
+    aspect-ratio: 1.77778;
+    display: inherit;
+    max-width: 100%;
+    height:auto;
+    background:rgba(255,255,255,0.1);
+    backdrop-filter: blur(1.25rem);
+    /* margin-top: 1.5rem; */
+    padding: 1rem;
+}
+.per img{
+    width: inherit;
+    max-width: inherit;
+    height: inherit;
+    object-fit: inherit;
+    aspect-ratio: 1.77778;
+    border-radius: 0.5rem;
+}
+.comp{
+    /* width: 100%; */
+    margin-top: 1.5rem;
+    /* padding: 1rem; */
+}
+.earth .in-earth{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    position: relative;
+}
+.gi .in{
+    position: relative;
+    z-index:1 ;
+    height: 100%;
+    /* background-color: #6f9e02; */
+    /* width: 100%; */
+    /* padding-top: 2rem; */
+}
+.global{
+    position: absolute;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+.global img{
+    object-fit: cover;
+    height: 100%;
+    max-width: 100%;
+    /* backgrouund-size: cover; */
 }
 }
 
@@ -1246,7 +1689,7 @@ header .navbar-2{
 }
 .middle{
     background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_mobile-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1990&qlt=100&fmt=png-alpha&fit=constrain");
-        background-size: cover;
+    background-size: cover;
     /* overflow: hidden; */
     background-repeat: no-repeat;
     object-fit: contain;
@@ -1336,6 +1779,13 @@ header .navbar-2{
     border-radius: inherit;
     object-fit: cover;
 }
+/* .comp .per{
+    padding: 1rem;
+} */
+ .ag{
+    margin-left: initial;
+    margin-right: initial;
+ }
 }
 
 @media screen and (min-width:860px){
@@ -1647,27 +2097,35 @@ header .navbar-2{
 .leader .lead{
     display: flex;
     flex-direction: row;
-    padding-right: 3.5rem;
-    padding-left: 3.5rem;
+    /* padding-right: 3.5rem;
+    padding-left: 3.5rem; */
     flex: 0 0 50%;
     align-items: center;
     /* max-width: 50%; */
     /* height: 100px; */
+    /* background-color: burlywood; */
+    max-width: 100vw;
 }
 .gart-logo{
-    width:150%;
-    /* display: flex; */
-    max-width: 100%;
-    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 50%;
+    max-width: 50%;
+    height: 200%;
+    max-height: 200%;
     border-radius: 1rem;
     order: 1;
     aspect-ratio: 1.33333;
     object-fit: cover;
+    /* background-color: #6f9e02; */
 }
 .gart-logo img{
-    width: inherit;
-    max-width: inherit;
-    height: 200%;
+    width: 100%;
+    max-width:inherit;
+    height: 100%;
+    max-height: 100%;
+    flex: 0 0 50%;
     object-fit: cover;
     border-radius: inherit;
     aspect-ratio: 1.333333;
@@ -1676,20 +2134,68 @@ header .navbar-2{
     border-radius: 1rem;
     border-top-right-radius:1rem ;
     border-bottom-right-radius:1rem ;
+    vertical-align: middle;
 }
 .mic-ldr{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     gap: 6rem;
     padding: 1.5rem;
     padding-inline-end:calc(var(2rem) + var(1.5rem)) ;
+    /* background-color: aquamarine; */
+    width: 100%;
+}
+.mi-ld{
+    padding: 1.5rem;
 }
 /* .magic{
     display: flex;
     align-items: center;
     text-align: center;
+} */
+.comp .per{
+    width: 66.67%;
+    border-radius: 0.5rem;
+    aspect-ratio: 1.77778;
+    display: inherit;
+    /* max-width: 100%; */
+    height:auto;
+    background:rgba(255,255,255,0.1);
+    backdrop-filter: blur(1.25rem);
+    /* margin-top: 1.5rem; */
+    /* padding: 1rem; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.per img{
+    width: 100%;
+    max-width: inherit;
+    height: inherit;
+    object-fit: inherit;
+    aspect-ratio: 1.77778;
+    border-radius: 0.5rem;
+}
+.comp{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: unset;
+}
+/* .comp .per{
+    padding: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    width: 76.67%;
+    max-width: 60%;
+}
+.per img{
+    width: 100%;
+    max-width: 60%;
 } */
 }
 
@@ -1875,6 +2381,126 @@ header .navbar-2{
 /* .pictr{
     position: relative;
 } */
+ .gartner{
+    box-sizing: border-box;
+    margin: 0;
+ }
+ .gartner .leader{
+    padding-top:4.5rem;
+    padding-bottom: 4.5rem;
+    padding-right: 5%;
+    padding-left:5%;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+.leader .lead{
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+.gart-logo{
+    flex: 0 0 50%;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+.gart-logo img{
+    width: 100%;
+    max-width: inherit;
+    /* height: auto; */
+    border-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.mi-ld{
+    padding: 0;
+}
+.optimize{
+    background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/resources-background_mobile@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=766&qlt=85&fmt=png-alpha&fit=constrain");
+}
+.transform{
+    box-sizing: border-box;
+}
+.transform .trans{
+    /* box-sizing: border-box; */
+    max-width: 1328px;
+    padding-right: 5%;
+    padding-left:5%;
+    width: 90%;
+    box-sizing: content-box;
+}
+.trans .tra{
+    margin-bottom: 2rem;
+    padding-top: 4.5rem;
+}
+.optimize{
+    max-width: 1328;
+}
+.infra .its{
+    max-width: 1332px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .its .it{
+    max-width: 1332px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.its{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.its .it{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    padding-top:0.5rem ;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    z-index: 0;
+}
+.it a{
+    transition: all 125ms ease-in-out;
+    color: #505050;
+    border-style: solid;
+    font-weight: 600;
+    text-decoration: none;
+    max-width:calc(1328px / var(6));
+    flex: 0 0 auto;
+    box-shadow: 0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.063rem 0.125rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14));
+}
+.it a span{
+    background: #fefefe;
+    overflow: hidden;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+.it .prof{
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid #0067b8;
+    border-right: 1px solid #f5e6e6;
+    box-shadow: 0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.063rem 0.125rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14));
+    background-color: #fefeff;
+}
+.it .prof span{
+    /* box-shadow: 0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.063rem 0.125rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14));
+    background-color: #fefefe; */
+    width: 100%;
+    height: 100%;
+    /* padding: 12px 16px 16px; */
+}
+.it .deve{
+    box-shadow: 0 0 0.125rem var(--root-depth-color-1, rgba(0, 0, 0, 0.12)),0 0.063rem 0.125rem var(--root-depth-color-2, rgba(0, 0, 0, 0.14));
+    background-color: #fefeff;
+}
+.comp .per{
+
+}
 }
 
 .discover{
@@ -2210,7 +2836,9 @@ header .navbar-2{
     display: flex;
     flex-wrap: nowrap;
     z-index: 0;
-    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
 }
 .up-content .upper{
     padding-right: 0;
@@ -2531,7 +3159,9 @@ header .navbar-2{
     display: flex;
     flex-wrap: nowrap;
     z-index: 0;
-    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
 }
 .modtop-2{
     /* display: flex;
@@ -2776,15 +3406,10 @@ header .navbar-2{
     margin: 0;
     background-color: #f4fafd;
 }
-.gartner .leader{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    /* margin-top: 1.5rem; */
-}
 .gartner .lead{
     margin-top: 1.5rem ;
-    padding-right: 0.25rem;
-    padding-left: 0.25rem;
+    /* padding-right: 0.25rem; */
+    /* padding-left: 0.25rem; */
     margin-right: -0.25rem;
     margin-left: -0.25rem;
 }
@@ -2825,6 +3450,7 @@ header .navbar-2{
     letter-spacing: -0.05em;
     line-height: 2rem;
     margin-bottom: 0;
+    font-family: 'seg-semi';
 }
 .magic{
     display: flex;
@@ -2839,6 +3465,7 @@ header .navbar-2{
     font-weight: 400;
     line-height: 1.5rem;
     letter-spacing: -0.03em;
+    /* font-family: 'segoeui'; */
 }
 .start p{
     display: contents;
@@ -2863,7 +3490,227 @@ header .navbar-2{
     padding: 0.75rem 1rem;
     text-decoration: none;
     border-radius: 0.75rem;
+    font-family: 'seg-semi';
 }
 .read a:hover{
     background-color: #006dc1;
+}
+.transform{
+    background-color: #f4fafd;
+}
+.trans{
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-bottom: 3rem; */
+}
+.res{
+    text-transform: uppercase;
+    margin:0 0 0.5rem;
+    color: #17253d;
+}
+.res span{
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.3333rem;
+    letter-spacing: 0.08em;
+      /* font-family: 'segoeui'; */
+}
+.tra .way{
+    margin: 0;
+    font-weight: 600;
+    line-height: 2.25rem;
+    letter-spacing: -0.05em;
+    /* margin-bottom: 0; */
+}
+.tra .way h2{
+    font-weight: 600;
+    line-height: 2.25rem;
+    letter-spacing: -0.05em;
+    margin-bottom: 0;
+    font-family: 'seg-semi';
+}
+.optimize{
+    /* background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/resources-background_mobile@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=383&qlt=85&fmt=png-alpha&fit=constrain"); */
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    box-sizing: border-box;
+    width: 100%;
+}
+.optimize .infra{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.opts{
+    padding-top: 1.5rem;
+    /* padding-bottom: 3rem; */
+    text-align: center;
+    display: block;
+}
+.opts .inf{
+    box-sizing: border-box;
+    display: block;
+    align-items: center;
+}
+.op-ex{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    text-align: center;
+    align-items: center;
+}
+.op-ex .ser{
+    padding-left: initial;
+}
+.ser h3{
+    /* font-size: 1.5rem; */
+    line-height: 2rem;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    font-family: 'seg-semi';
+    /* margin-bottom: 0; */
+}
+.ser span{
+    /* font-size: 1.25rem; */
+    font-weight: 600;
+    line-height: 1.75rem;
+    letter-spacing: -0.05em;
+    font-family: 'seg-semi';
+    /* margin-bottom: 0; */
+}
+.mig{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.75rem;
+    padding-inline-end: 0;
+    width: 100%;
+}
+.mig a{
+    display: inline-flex;
+    color: #004275;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-decoration: none;
+    text-decoration-line: none;
+    align-items: center;
+    gap: 0.5rem;
+    /* width: 100%; */
+}
+.mig .chev span{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    border: 2px solid transparent;
+    justify-content: center;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    line-height: 1.375rem;
+    letter-spacing: -0.02em;
+    background-color: #0078d4;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    /* width: 100%; */
+}
+.mig .chev span:hover{
+    background-color: #006dc1;
+    color: #ffffff;
+}
+.mig .mi{
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    letter-spacing: normal;
+    color: #004275;
+    --link-text-color:#004275;
+    display: inline-flex;
+    padding-bottom: 0.125rem;
+    font-family: 'seg-semi';
+}
+/* .comp .per{
+    width: 100%;
+    border-radius: 0.5rem;
+    aspect-ratio: 1.77778;
+    display: inherit;
+    max-width: 100%;
+    height:auto;
+    background:rgba(255,255,255,0.1);
+    backdrop-filter: blur(1.25rem);
+    margin-top: 1.5rem;
+    padding: 1rem;
+}
+.per img{
+    width: inherit;
+    max-width: inherit;
+    height: inherit;
+    object-fit: inherit;
+    aspect-ratio: 1.77778;
+    border-radius: 0.5rem;
+} */
+ .earth{
+    background-color: #f4fafd;
+ }
+ .earth .global{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: inherit;
+    transform: unset;
+    height: inherit;
+    max-height: 100%;
+    /* overflow: hidden; */
+    width: inherit;
+    max-width: 100%;
+    object-fit: cover;
+ }
+ .global img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: inherit;
+    aspect-ratio: initial;
+ }
+ .earth .ag{
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+ }
+ .gi .in{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #ffffff;
+    gap: 1rem;
+ }
+.ag .in{
+    /* padding:0 2rem; */
+}
+.earth .global{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gi .in{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
 }
